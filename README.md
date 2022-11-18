@@ -23,13 +23,18 @@ RQ3: Are states that use placement recommendation models or child-foster parent 
 **Data cleaning** 
 ```python
 # Limit columns to the ones that are necessary
-foster_data_v2=foster_data_v1[['curplset','st','amiakn', 'asian', 'blkafram', 'hawaiipi', 'white', 'hisorgin', 'untodetm', 'rf1amakn', 'rf1asian', 'rf1blkaa', 'rf1nhopi', 'rf1white', 'hofcctk1', 'rf1utod','rf2amakn', 'rf2asian', 'rf2blkaa', 'rf2nhopi', 'rf2white', 'hofcctk2', 'rf2utod']]
+foster_data_v2=foster_data_v1[['curplset','st','amiakn', 'asian', 
+'blkafram', 'hawaiipi', 'white', 'hisorgin', 'untodetm', 'rf1amakn', 
+'rf1asian', 'rf1blkaa', 'rf1nhopi', 'rf1white', 'hofcctk1', 'rf1utod','rf2amakn', 
+'rf2asian', 'rf2blkaa', 'rf2nhopi', 'rf2white', 'hofcctk2', 'rf2utod']]
 
      
 ```
 ```python
 # Limit observations to those who live in a foster home, non-relative or pre-adoptive home
-foster_data_v2= foster_data_v2.loc[(foster_data_v2['curplset'] == 'Foster home, non-relative') | (foster_data_v2['curplset'] == 'Pre-adoptive home')]
+foster_data_v2= foster_data_v2.loc[(foster_data_v2['curplset']
+== 'Foster home, non-relative') | (foster_data_v2['curplset'] 
+== 'Pre-adoptive home')]
 
      
 ```
