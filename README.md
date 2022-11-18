@@ -41,13 +41,6 @@ foster_data_v2= foster_data_v2.loc
 
 ## Results
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
 
 ![img1](Child-race.png)
 ![img1](Total-matching.png)
