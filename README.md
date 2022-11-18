@@ -1,3 +1,3 @@
 # FosterCareProject
 
-![img1](Kansas compare.png)
+![img1](Kansas-compare.png)
