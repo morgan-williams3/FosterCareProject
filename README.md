@@ -10,7 +10,7 @@ A wide range of tools have been deployed to facilitate decision-making and each 
 
 This analysis examines the inclusion of foster child and foster parent demographics into parent-child matching algorithms. In the first analysis, researchers will assess whether demographic variables in the Adoption and Foster Care Analysis and Reporting System 2015 (AFCARS) dataset are representative enough to undermine potential biases in parent-child matching tools if it were used as training data. In the second section, researchers examine whether the use of parent-child matching tools in Kansas resulted in a higher share of same-race placements compared to neighboring states.  
 
-## Research question
+## Research questions
 The subsequent sections attempts to answer the following questions: 
 RQ1: Is there racial/socioeconomic overrepresentation among foster families? 
 RQ2: Is AFCARS representative enough to be used as a training data set?
