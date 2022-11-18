@@ -45,3 +45,11 @@ foster_data_v2= foster_data_v2.loc
 ![img1](Child-race.png)
 ![img1](Total-matching.png)
 ![img1](Kansas-compare.png)
+
+## Limitations
+
+
+## Discussion
+
+
+## References
