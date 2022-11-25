@@ -44,6 +44,9 @@ foster_data_v2= foster_data_v2.loc
 
 ## Results
 
+### RQ1: Is there racial/socioeconomic overrepresentation among foster families? 
+
+### RQ2: Is AFCARS representative enough to be used as a training data set?
 
 ### RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
 
