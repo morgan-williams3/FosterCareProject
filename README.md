@@ -45,12 +45,17 @@ foster_data_v2= foster_data_v2.loc
 ## Results
 
 
+### RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
+
+In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities. 
 ![img1](Child-race.png)
+
+Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, our research team sought to assess the extent to which social workers with and without algorithmic aid place foster children in same-race households. Among the entire dataset in 2015, 59% are placed in same-race households. However, white children are 10 percentage points more likely to be placed in these households as compared to their minority peers. 
 ![img1](Total-matching.png)
 ![img1](Kansas-compare.png)
 
 ## Limitations
-
+Note to self: Some placements in Kansas may have occured before their implementation of algorithmic matching. 
 
 ## Discussion
 
