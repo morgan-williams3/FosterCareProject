@@ -8,7 +8,6 @@
 *Decoding Biases in AI, SciencesPo, Fall 2022*
 
 ## Introduction
-----
 
 In the United States, there are over 400,000 children in foster care on any given day, with over 200,000 children entering and exiting each year (US ACF, 2021). While many children are placed in group homes, relatives’ homes and other institutions, the largest share (45%) of children are placed in non-relative foster family homes (US ACF, 2021). With the average age of children in foster care being 8.4 years old, placement in non-relative foster family homes is a delicate task. Children in this age group have high developmental needs, and misplacement may result in short and long-term implications on the child’s mental health, emotional wellbeing, academic success and more (Leslie et. al, 2005). 
 
@@ -28,15 +27,15 @@ RQ2: Is AFCARS representative enough to be used as a training data set?
 RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
 
 ## Literature review
-----
 
 
 
 ## Methodology 
-----
 
 
 Note to whomever is doing methodolology: Feel free to change this, I was just messing around
+
+
 **Data cleaning** 
 ```python
 # Limit columns to the ones that are necessary
@@ -57,7 +56,6 @@ foster_data_v2= foster_data_v2.loc
 ```
 
 ## Results
-----
 
 
 ### RQ1: Is there racial/socioeconomic overrepresentation among foster families? 
@@ -155,15 +153,12 @@ fig.show()
 On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are a particularly vulnerable sub-population, the results suggest that algorithmic matching may  disproportionately disadvantage a group that is already systematically disadvantaged. Therefore, the algorithm may appear to developers and social workers that it improves outcomes for foster children, but it is in reality, it improves outcomes for white children at the expense of minority children. 
 
 ## Limitations
-----
 
 Note to Ludovica: Some placements in Kansas may have occured before their implementation of algorithmic matching. // We grouped minorities into one group rather than matching each minority group for simplicity, but it can be justified because ... // It is possible that Kansas has adjusted their algorithm since 2015 
 
 ## Discussion
-----
 
 
 
 ## References
-----
 
