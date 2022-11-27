@@ -52,7 +52,9 @@ foster_data_v2= foster_data_v2.loc
 
 ### RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
 
-Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demopraphic dispersion. 
+Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households. 
+
+First, we will examine the demographic composition of minority vs. white non-relative foster families. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demopraphic dispersion. 
 
 ![img1](Child-race.png)
 
@@ -64,11 +66,11 @@ Using the American population of children placed in non-relative foster families
 
 ![img1](Total-matching.png)
 
-As outlined in the methodology section, we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, are 12 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding, that minority foster children in Kansas are significantly less likely to be placed in same-race household, while white foster children in Kansas are significantly more likely to be placed in same-race households. 
+As outlined in the methodology section, we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, are 12 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding, that minority foster children in Kansas are 8 percentage points significantly less likely to be placed in same-race household, while white foster children in Kansas are significantly more likely to be placed in same-race households. 
 
 ![img1](Kansas-compare.png)
 
-On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are a particularly vulnerable sub-population, the results suggest that algorithmic matching may disproportionally disadvantage a group that is already systematically disadvantaged.  
+On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are a particularly vulnerable sub-population, the results suggest that algorithmic matching may disproportionally disadvantage a group that is already systematically disadvantaged. Therefore, the algorthm may appear to its coders and users that it's improving outcomes for foster children, but it is in reality, improving outcomes for white children at the expense of minority children. 
 
 ## Limitations
 Note to Ludovica: Some placements in Kansas may have occured before their implementation of algorithmic matching. // We grouped minorities into one group rather than matching each minority group for simplicity, but it can be justified because ... // It is possible that Kansas has adjusted their algorithm since 2015
