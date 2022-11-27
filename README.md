@@ -56,6 +56,9 @@ Given evidence from the literature suggesting that same-race placement is an imp
 
 First, we will examine the demographic composition of minority vs. white non-relative foster families. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demographic dispersion. 
 
+```python
+# For now we kept parents whose race is not able to be determined 
+```
 ![img1](Child-race.png)
 
 With that said, there are more white non-relative foster families than homes with at least one minority parent. Since the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families on waiting lists and have not yet been matched with a foster child.
