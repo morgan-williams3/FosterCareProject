@@ -128,7 +128,7 @@ fig.show()
 
 ![img1](Total-matching.png)
 
-Using the American population of children placed in non-relative foster families in 2015, 59% are placed in same-race households. However, white children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
+Using the American population of children placed in non-relative foster families in 2015, 60% are placed in same-race households. However, white children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
 
 ```python
 # Create figure
