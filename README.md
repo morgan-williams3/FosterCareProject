@@ -56,7 +56,7 @@ The first step in addressing RQ3 is to examine the racial composition of foster 
 
 With that said, there are a more white non-relative foster families than homes with at least one minority parent. Given that the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families that have not been matched with a foster child.
 
-![img1] (minority_parent.png)
+![img1](minority_parent.png)
 
 Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households. Among the entire dataset in 2015, 59% are placed in same-race households. However, white children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
 
