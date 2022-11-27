@@ -50,15 +50,19 @@ foster_data_v2= foster_data_v2.loc
 
 ### RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
 
-In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities. 
+The first step in addressing RQ3 is to examine the racial composition of foster child placed with non-relative families. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demopraphic dispersion. 
 ![img1](Child-race.png)
 
-Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, our research team sought to assess the extent to which social workers with and without algorithmic aid place foster children in same-race households. Among the entire dataset in 2015, 59% are placed in same-race households. However, white children are 10 percentage points more likely to be placed in these households as compared to their minority peers. 
+With that said, there are a more white non-relative foster families than homes with at least one minority parent. Given that the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families that have not been matched with a foster child.
+
+Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households. Among the entire dataset in 2015, 59% are placed in same-race households. However, white children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
 ![img1](Total-matching.png)
+
+As outlined in the methodology section, we compare the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. 
 ![img1](Kansas-compare.png)
 
 ## Limitations
-Note to self: Some placements in Kansas may have occured before their implementation of algorithmic matching. 
+Note to self: Some placements in Kansas may have occured before their implementation of algorithmic matching. // We grouped minorities into one group rather than matching each minority group for simplicity, but it can be justified because ...
 
 ## Discussion
 
