@@ -160,5 +160,10 @@ Note to Ludovica: Some placements in Kansas may have occured before their implem
 
 
 
+## Google notebooks
+*RQ1 & RQ2: *
+
+*RQ3: https://colab.research.google.com/drive/1h_fD9-K_Ys9AIHEGbXf0PGo_SuR1iAk0?usp=sharing
+
 ## References
 
