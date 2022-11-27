@@ -58,7 +58,7 @@ First, we will examine the demographic composition of minority vs. white non-rel
 
 ![img1](Child-race.png)
 
-With that said, there are a more white non-relative foster families than homes with at least one minority parent. Since the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families on waiting lists and have not yet been matched with a foster child.
+With that said, there are more white non-relative foster families than homes with at least one minority parent. Since the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families on waiting lists and have not yet been matched with a foster child.
 
 ![img1](minority_parent.png)
 
