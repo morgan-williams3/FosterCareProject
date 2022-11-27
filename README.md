@@ -50,23 +50,26 @@ foster_data_v2= foster_data_v2.loc
 
 ### RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
 
-The first step in addressing RQ3 is to examine the racial composition of foster child placed with non-relative families. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demopraphic dispersion. 
+The first step in addressing RQ3 is to examine the racial composition of foster children placed in non-relative foster families and their foster-parents. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demopraphic dispersion. 
 
 ![img1](Child-race.png)
 
-With that said, there are a more white non-relative foster families than homes with at least one minority parent. Given that the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families that have not been matched with a foster child.
+With that said, there are a more white non-relative foster families than homes with at least one minority parent. Given that the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families on a waiting list and have not yet been matched with a foster child.
 
 ![img1](minority_parent.png)
 
-Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households. Among the entire dataset in 2015, 59% are placed in same-race households. However, white children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
+Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households. Using the American population of children placed in non-relative foster families in 2015, 59% are placed in same-race households. However, white children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
 
 ![img1](Total-matching.png)
 
-As outlined in the methodology section, we compare the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. 
+As outlined in the methodology section, we compare the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, where algorithmic matching is used, are 12 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding, that minority foster children in Kansas are significantly less likely to be placed in same-race household, while white foster children in Kansas are significantly more likely to be placed in same-race households. 
+
 ![img1](Kansas-compare.png)
 
+On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, the results suggest that a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are particularly vulnerable, the results suggest that algorithmic matching may disproportionally disadvantage a group that is already disadvantaged.  
+
 ## Limitations
-Note to self: Some placements in Kansas may have occured before their implementation of algorithmic matching. // We grouped minorities into one group rather than matching each minority group for simplicity, but it can be justified because ...
+Note to Ludovica: Some placements in Kansas may have occured before their implementation of algorithmic matching. // We grouped minorities into one group rather than matching each minority group for simplicity, but it can be justified because ...
 
 ## Discussion
 
