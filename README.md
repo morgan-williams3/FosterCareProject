@@ -1,6 +1,7 @@
 ----
 
 # Algorithmic matching in foster care: Help or harm?
+----
 *Research and analysis by Stavroula Chousou, Yasmine El-Ghazi, Ludovica Pavoni, Lea Roubinet & Morgan Williams*
 *Decoding Biases in AI, SciencesPo, Fall 2022*
 
