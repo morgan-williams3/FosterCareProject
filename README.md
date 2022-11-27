@@ -37,8 +37,7 @@ In order to understand whether there is racial/socioeconomic overrepresentation 
 
 The dataset is exhaustive as it provides data on children who enter foster care, their entries and exits, placement details, and foster/adoptive parent information, which helped us identify adoption trends. The dataset of course also provides data on the social and racial background of the children in the foster care system, as well as racial information of caretakers, both 1st and 2nd foster caretakers.
 
-The first step in our analysis was the process of data cleaning where we considerably resized the dataset, going from 104 variables to 23. The variables we decided to keep are of course all the variables that help explain the racial background of the children and of the caregivers as well as the variables that provide information about the current location of the children within the foster care system and the variable that provides information about the geographical location of the child. ![image](https://user-images.githubusercontent.com/118523693/204163727-788ffa10-778c-4614-9d2c-f8750c0f7d8e.png)
-
+The first step in our analysis was the process of data cleaning where we considerably resized the dataset, going from 104 variables to 23. The variables we decided to keep are of course all the variables that help explain the racial background of the children and of the caregivers as well as the variables that provide information about the current location of the children within the foster care system and the variable that provides information about the geographical location of the child. 
 **Data cleaning** 
 ```python
 # Limit columns to the ones that are necessary
@@ -48,7 +47,7 @@ foster_data_v2=foster_data_v1[['curplset','st',
 'rf1nhopi', 'rf1white', 'hofcctk1', 'rf1utod','rf2amakn', 
 'rf2asian', 'rf2blkaa', 'rf2nhopi', 'rf2white', 'hofcctk2', 
 'rf2utod']]
-     
+```    
 The second step was limit our observations in the variable curplset, to only the children who are currently in the foster, non-relative, and pre-adoptive homes. Once the data was sufficiently cleaned we were able to proceed with the analysis.
 
 ```python
