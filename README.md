@@ -33,8 +33,11 @@ RQ3: Are states that use placement recommendation models or child-foster parent 
 ## Methodology 
 
 
-Note to whomever is doing methodolology: Feel free to change this, I was just messing around
+In order to understand whether there is racial/socioeconomic overrepresentation among foster families and to examine the reality of foster care matching, the analysis employs the Adoption and Foster Care Analysis and Reporting System 2015 (AFCARS) dataset. Such data is compiled by the Department of Health and Human Services (HHS), the Administration for Children and Families (ACF), and Children’s Bureau (CB).
 
+The dataset is exhaustive as it provides data on children who enter foster care, their entries and exits, placement details, and foster/adoptive parent information, which helped us identify adoption trends. The dataset of course also provides data on the social and racial background of the children in the foster care system, as well as racial information of caretakers, both 1st and 2nd foster caretakers.
+
+The first step in our analysis was the process of data cleaning where we considerably resized the dataset, going from 104 variables to 23. The variables we decided to keep are of course all the variables that help explain the racial background of the children and of the caregivers as well as the variables that provide information about the current location of the children within the foster care system and the variable that provides information about the geographical location of the child. ![image](https://user-images.githubusercontent.com/118523693/204163727-788ffa10-778c-4614-9d2c-f8750c0f7d8e.png)
 
 **Data cleaning** 
 ```python
@@ -46,7 +49,8 @@ foster_data_v2=foster_data_v1[['curplset','st',
 'rf2asian', 'rf2blkaa', 'rf2nhopi', 'rf2white', 'hofcctk2', 
 'rf2utod']]
      
-```
+The second step was limit our observations in the variable curplset, to only the children who are currently in the foster, non-relative, and pre-adoptive homes. Once the data was sufficiently cleaned we were able to proceed with the analysis.
+
 ```python
 # Limit observations to those who live in a foster home, non-relative or pre-adoptive home
 foster_data_v2= foster_data_v2.loc
@@ -54,6 +58,15 @@ foster_data_v2= foster_data_v2.loc
 | (foster_data_v2['curplset'] == 'Pre-adoptive home')]
      
 ```
+….
+To answer our 3rd research question, we started by coding our data. We created a new dummy variable to distinguish between the children who fall into minority groups from those who do not fall into minority groups. Minority children are Black-African Americans, Asians, Hawaiians and Pacific Islanders, Indian American, and children of Hispanic origins that are encoded as 1. Non-minority children, white children, are encoded as 0. We repeated the same procedure for 1st and 2nd foster parent, so we created a dummy variable that took value 1 if 1st parent was a minority and took value 0 if 1st parent was white. We created a second variable that also took value 1 if 2nd parent was a minority and value 0 if 2nd parent was white. These two variables were created in order to encode a third dummy variable that took value 1 if at least one parent is a minority and that took value 0 if 1st and 2nd parent are white.
+
+To understand the share of same-race households by race, we combined the variables resulting in a variable that took value 0 when children and parents’ races matched (so when a minority child was placed with minority parents and when a non-minority child was placed with non-minority parents). It took value 1 when such matching did not occur.
+….
+
+We then compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. 
+
+
 
 ## Results
 
