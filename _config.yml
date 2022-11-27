@@ -1,4 +1,8 @@
 theme: minima
 
-plugins:
-- jekyll-remote-theme
+defaults:
+  - scope:
+      path: some-path
+      layout: some_layout
+    values:
+      strip_title: true
