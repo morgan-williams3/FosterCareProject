@@ -54,7 +54,7 @@ foster_data_v2= foster_data_v2.loc
 
 Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households. 
 
-First, we will examine the demographic composition of minority vs. white non-relative foster families. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demopraphic dispersion. 
+First, we will examine the demographic composition of minority vs. white non-relative foster families. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demographic dispersion. 
 
 ![img1](Child-race.png)
 
@@ -70,10 +70,10 @@ As outlined in the methodology section, we compared the share of same-race house
 
 ![img1](Kansas-compare.png)
 
-On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are a particularly vulnerable sub-population, the results suggest that algorithmic matching may disproportionally disadvantage a group that is already systematically disadvantaged. Therefore, the algorthm may appear to its coders and users that it's improving outcomes for foster children, but it is in reality, improving outcomes for white children at the expense of minority children. 
+On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are a particularly vulnerable sub-population, the results suggest that algorithmic matching may disproportionally disadvantage a group that is already systematically disadvantaged. Therefore, the algorthm may appear to developers and social workers that it improves outcomes for foster children, but it is in reality, it improves outcomes for white children at the expense of minority children. 
 
 ## Limitations
-Note to Ludovica: Some placements in Kansas may have occured before their implementation of algorithmic matching. // We grouped minorities into one group rather than matching each minority group for simplicity, but it can be justified because ... // It is possible that Kansas has adjusted their algorithm since 2015
+Note to Ludovica: Some placements in Kansas may have occured before their implementation of algorithmic matching. // We grouped minorities into one group rather than matching each minority group for simplicity, but it can be justified because ... // It is possible that Kansas has adjusted their algorithm since 2015 
 
 ## Discussion
 
