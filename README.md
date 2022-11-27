@@ -57,19 +57,84 @@ Given evidence from the literature suggesting that same-race placement is an imp
 First, we will examine the demographic composition of minority vs. white non-relative foster families. In the dataset, around half of foster children placed in non-relative foster care are white, and the rest are minorities, indicating a relatively even demographic dispersion. 
 
 ```python
-# For now we kept parents whose race is not able to be determined 
+# Create dictionary for figure
+dict_race = {0:"White", 1:"Minority", "NaN":"Not available"}
+foster_data_v3['child_race_plot'] = foster_data_v3['child_race'].apply(lambda x : dict_race[x])
+
+# Make figure
+fig = px.pie(foster_data_v3, names='child_race_plot', title="Foster Child Race",
+             color='child_race_plot',
+             color_discrete_map={'White': '#BC8F8F',
+                                 'Minority':'#B0C4DE',
+                                 'Not available':'#778899'})
+
 ```
+
 ![img1](Child-race.png)
 
 With that said, there are more white non-relative foster families than homes with at least one minority parent. Since the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families on waiting lists and have not yet been matched with a foster child.
 
+```python
+# Create dictionary for figure
+dict_race = {0:"No", 1:"Yes", "NaN":"Not available"}
+foster_data_v3['parent_race_plot'] = foster_data_v3['atl1_parent_race'].apply(lambda x : dict_race[x])
+
+# Make figure
+fig = px.pie(foster_data_v3, names='parent_race_plot', title="Homes with at least one minority parent",
+             color='parent_race_plot',
+             color_discrete_map={'No': '#BC8F8F',
+                                 'Yes':'#B0C4DE',
+                                 'Not available':'#778899'})
+
+fig.show()
+```
 ![img1](minority_parent.png)
 
 Using the American population of children placed in non-relative foster families in 2015, 59% are placed in same-race households. However, white children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
 
+```python
+# Create dataframe for bar graph
+df_bar= pd.DataFrame(
+    {"label":["% of total children", "% of minority children", "% of white children"],
+     "value":[matching_percent[1],matching_minority[1],matching_white[1]]       
+    }
+ )
+
+# Create bar chart
+fig = px.bar(df_bar, y="label", x="value", orientation="h",
+       color="label",
+       text_auto=".0%",
+        color_discrete_map={"% of total children":'#778899',
+                            "% of minority children":'#B0C4DE',
+                            "% of white children":'#BC8F8F'},
+       labels={"label":'', "value":''},
+       title="Share of same-race households by race")
+
+fig.update_traces(textposition="outside")
+fig.update_layout(xaxis=dict(tickformat=".0%"))
+fig.show()
+
+```
+
 ![img1](Total-matching.png)
 
 As outlined in the methodology section, we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, are 12 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding, that minority foster children in Kansas are 8 percentage points significantly less likely to be placed in same-race household, while white foster children in Kansas are significantly more likely to be placed in same-race households. 
+
+
+```python
+# Create figure
+fig = px.bar(df_bar2, x='label', y='value', color='state', barmode='group',
+             text_auto=".0%",
+        color_discrete_map={"Kansas":'#BC8F8F',
+                            "Surrounding states":'#778899'},
+       labels={"label":'', "value":'', 'state':''},
+       title="Share of same-race households by state by race")
+
+fig.update_traces(textposition="outside")
+fig.update_layout(yaxis=dict(tickformat=".0%"))
+fig.show()
+
+```
 
 ![img1](Kansas-compare.png)
 
