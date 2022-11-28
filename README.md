@@ -274,9 +274,15 @@ As far as data limitation goes, the present dataset does not have any informatio
 
 
 ## Google notebooks
-- RQ1 & RQ2: 
+- RQ1 & RQ2: https://colab.research.google.com/drive/1giwlLJAF9sC3hJM7hjSvUdG-VT7FyHIh?usp=sharing
 
 - RQ3: https://colab.research.google.com/drive/1h_fD9-K_Ys9AIHEGbXf0PGo_SuR1iAk0?usp=sharing
 
 ## References
+
+Datasets :
+Kids Count Data Center (2021): https://datacenter.kidscount.org/data/tables/103-child-population-by-race-and-ethnicity#detailed/1/any/false/2048,574,1729,37,871,870,573,869,36,868/68,69,67,12,70,66,71,72/423,424
+United States Census Bureau (2021) : https://www.census.gov/quickfacts/fact/table/US/PST045221
+
+
 
