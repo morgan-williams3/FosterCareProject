@@ -106,7 +106,7 @@ ax.bar(races,percentages)
 plt.show()
 ```
 
-![img1](C IA.png)
+![image](C IA.png)
 
 The most represented racial category among the children is white (51.7%), followed by black-African American (25.1%) and finally Latino (17.7%).  The other three racial categories are very little represented since they all represent less than 5% of the total population.
 
@@ -132,7 +132,7 @@ Percentage of Hawaian parent 1: 0.004418516461936427
 Percentage of Latino parent 1 : 0.12101317767514931
 ```
 
-![img1](P1IA.png)
+![image2](P1 IA.png)
 
 ```python
 # Parent 2:
@@ -152,7 +152,7 @@ Percentage of Hawaian parent 2: 0.005275163210193755
 Percentage of Latino parent 2: 0.12287040192968197
 ```
 
-![img1](P2IA.png)
+![image3](P2 IA.png)
 
 We also note that the most represented racial category are: white (respectively 60.3% and 70.8%), black and african american (respectively 24.7% and 14%) and latino (respectively 12.1% and 12.2%). Here we see that the number of white foster families is proportionally larger than the proportion of white children (between 10 and 20 percentage points difference). This means that the proportion of racial minority families is lower than the proportion of racial minority children in foster care. Racial minority children are therefore more likely to have a foster family that is not from a racial minority.
 
@@ -166,7 +166,7 @@ Using the calculation of fluctuation intervals we found the following results:
 
 We find that in general, the racial distribution within the AFCARS dataset for both children and parents is not representative of the U.S. population. We analyze some relevant results:
 
-![img1](IA tableau.png)
+![image3](IA tableau.png)
 
 The proportion of white adults is representative of the U.S. population for parent 1 but the proportion for parent 2 is much higher than the proportion of white adults in the U.S. population. We can conclude that the dataset is partially representative in this regard and that limiting the study to the parent 1 population may be considered in the case of use for an algorithmic tool.
 
