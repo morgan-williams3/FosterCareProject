@@ -49,7 +49,7 @@ foster_data_v2=foster_data_v1[['curplset','st',
 'rf2asian', 'rf2blkaa', 'rf2nhopi', 'rf2white', 'hofcctk2', 
 'rf2utod']]
 ```    
-The second step was limit our observations in the variable curplset, to only the children who are currently in the foster, non-relative, and pre-adoptive homes. Once the data was sufficiently cleaned we were able to proceed with the analysis.
+The second step was limit our observations in the variable 'curplset', to only the children who are currently in the foster, non-relative, and pre-adoptive homes. Once the data was sufficiently cleaned we were able to proceed with the analysis.
 
 ```python
 # Limit observations to those who live in a foster home, non-relative or pre-adoptive home
