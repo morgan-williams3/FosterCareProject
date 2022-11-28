@@ -156,6 +156,22 @@ We also note that the most represented racial category are: white (respectively 
 
 ### RQ2: Is AFCARS representative enough to be used as a training data set?
 
+With the results obtained previously, we wanted to know if the dataset was representative of the racial distribution of the American population. This representativeness is important in the case where this dataset would be used by algorithms and decision-making tools. If the dataset is not representative, these tools could be biased, which in the case of such sensitive subjects as placement, adoption and ultimately, the well-being of children, could have serious consequences. 
+
+The data on the racial distribution of children in the United States comes from the Kids Count Data Center. Data on the racial distribution of adults in the United States are from the United States Census Bureau (links are in the reference section). In both cases we used data for the year 2021.
+
+Using the calculation of fluctuation intervals we found the following results:
+
+We find that in general, the racial distribution within the AFCARS dataset for both children and parents is not representative of the U.S. population. We analyze some relevant results:
+
+The proportion of white adults is representative of the U.S. population for parent 1 but the proportion for parent 2 is much higher than the proportion of white adults in the U.S. population. We can conclude that the dataset is partially representative in this regard and that limiting the study to the parent 1 population may be considered in the case of use for an algorithmic tool.
+
+The proportion of black or african american adults is higher than that observed in the general population for parent 1 but is representative for parent 2. We can make the same remark as in the previous point.
+
+Black or African American children are significantly overrepresented compared to the distribution within the American child population (10 percentage points above the upper limit of the fluctuation interval). This finding may be explained by race-related socioeconomic conditions that impact the child's living conditions.
+
+A major point of analysis concerns Asian children and parents. They are significantly underrepresented in both the child and adult populations. We do not have an explanation for this. However, we can say that this underrepresentation could bias algorithmic placement or decision assistance tools.
+
 ### RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
 
 Given evidence from the literature suggesting that same-race placement is an important indicator of childhood outcomes, we assessed the extent to which social workers with and without algorithmic aid place foster children in same-race households.  
