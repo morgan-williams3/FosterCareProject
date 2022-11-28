@@ -58,7 +58,13 @@ foster_data_v2= foster_data_v2.loc
 | (foster_data_v2['curplset'] == 'Pre-adoptive home')]
      
 ```
-…. (here if you want Lea you can add the gists of methodology for RQ1?, I couldnt find your collab and what you did but if you share it here I'd be more than happy to include it)
+To answer the first two research questions related to the representativeness of the dataset with regard to the American population, we started from the data cleaning carried out previously by choosing to focus on the following racial categories: white, black or african american, latino, asian, american indian or alaska native and hawaiian or other pacific islander for children, parents 1 and parent 2. We decided not to consider individuals whose race is undetermined.
+
+For question one, we calculated the distribution of the different racial categories for children and parents to see if significant differences could be observed.
+
+For question two, we selected two official data sources for the racial distribution of the entire U.S. population to assess the representativeness of our dataset. To do this we calculated fluctuation intervals based on the national distribution in order to compare it to the distribution of the AFCARS dataset.
+
+The details of all the calculations made for the analysis of this dataset can be found in the google notebook whose links are at the bottom of the page 
 
 To answer our 3rd research question, we started by coding our data. We created a new dummy variable to distinguish between the children who fall into minority groups from those who do not fall into minority groups. Minority children are Black-African Americans, Asians, Hawaiians and Pacific Islanders, Indian American, and children of Hispanic origins that are encoded as 1. In this phase we also dropped all those children whose race was undetermined. Non-minority children, the remaining white children therefore, are encoded as 0. We repeated the same procedure for 1st and 2nd foster parent, so we created a dummy variable that took value 1 if 1st parent was a minority and took value 0 if 1st parent was white. We created a second variable that also took value 1 if 2nd parent was a minority and value 0 if 2nd parent was white. These two variables were created in order to encode a third dummy variable that took value 1 if at least one parent is a minority and that took value 0 if 1st and 2nd parent are white.
 
@@ -71,6 +77,82 @@ For the last step in our analysis we compared the share of same-race households 
 
 
 ### RQ1: Is there racial/socioeconomic overrepresentation among foster families? 
+
+In order to determine whether there is an overrepresentation of a certain racial category on either the child or foster family side, we calculated the proportion of each racial category within the following populations: children, parent 1, and parent 2.
+
+We obtained the following results:
+
+```python
+print(f'Percentage of Asian kids: {asians_percentage}')
+print(f'Percentage of Native American - Alaska kids: {amiakn_percentage}')
+print(f'Percentage of African American kids: {blkafram_percentage}')
+print(f'Percentage of White kids: {white_percentage}')
+print(f'Percentage of Hawaian kids: {hawaiipi_percentage}')
+print(f'Percentage of Latino kids: {hisorgin_percentage}')
+
+Percentage of Asian kids: 0.01056836213837363
+Percentage of Native American - Alaska kids: 0.03880798463731184
+Percentage of African American kids: 0.25133211911815667
+Percentage of White kids: 0.5171332014893678
+Percentage of Hawaian kids: 0.004971507633140257
+Percentage of Latino kids: 0.1771868249836498
+
+# Make figure
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1])
+races = ['Asian', 'Native - Alaska', 'African American', 'White', 'Hawaian', 'Latino']
+percentages = [1.05,3.88,25.13,51.71,0.49,17.71]
+ax.bar(races,percentages)
+plt.show()
+
+![image](https://user-images.githubusercontent.com/118471561/204382379-f00d72c9-5ed2-4276-a877-bc6a4e502bdf.png)
+```
+
+The most represented racial category among the children is white (51.7%), followed by black-African American (25.1%) and finally Latino (17.7%).  The other three racial categories are very little represented since they all represent less than 5% of the total population.
+
+Regarding parents, it should be noted that the population of parent 1 is higher than that of parent 2. This significant difference is not explained. We assume that this is the result of either a lack of data or a large number of single-parent foster families. This would be the case for 104,643 families out of 295,348 (or 35.4%).
+
+We obtained the following results:
+
+```python
+# Parent 1:
+
+print(f'Percentage of Asian parent 1: {asians_percentage_parent1}')
+print(f'Percentage of Native American - Alaska parent 1: {amiakn_percentage_parent1}')
+print(f'Percentage of African American parent 1: {blkafram_percentage_parent1}')
+print(f'Percentage of White parent 1: {white_percentage_parent1}')
+print(f'Percentage of Hawaian parent 1: {hawaiipi_percentage_parent1}')
+print(f'Percentage of Latino parent 1 : {hisorgin_percentage_parent1}')
+
+Percentage of Asian parent 1: 0.008633882741714859
+Percentage of Native American - Alaska parent 1: 0.014410119587740564
+Percentage of African American parent 1: 0.24792448230561914
+Percentage of White parent 1: 0.6035998212278397
+Percentage of Hawaian parent 1: 0.004418516461936427
+Percentage of Latino parent 1 : 0.12101317767514931
+
+![image](https://user-images.githubusercontent.com/118471561/204382610-e35b1c48-fa03-4106-a548-b0211dd95bd7.png)
+
+# Parent 2:
+
+print(f'Percentage of Asian parent 2: {asians_percentage_parent2}')
+print(f'Percentage of Native American - Alaska parent 2: {amiakn_percentage_parent2}')
+print(f'Percentage of African American parent 2: {blkafram_percentage_parent2}')
+print(f'Percentage of White parent 2: {white_percentage_parent2}')
+print(f'Percentage of Hawaian parent 2: {hawaiipi_percentage_parent2}')
+print(f'Percentage of Latino parent 2: {hisorgin_percentage_parent2}')
+
+Percentage of Asian parent 2: 0.010020712618966466
+Percentage of Native American - Alaska parent 2: 0.013554967095776199
+Percentage of African American parent 2: 0.14000157311030126
+Percentage of White parent 2: 0.7082771820350804
+Percentage of Hawaian parent 2: 0.005275163210193755
+Percentage of Latino parent 2: 0.12287040192968197
+
+![image](https://user-images.githubusercontent.com/118471561/204382720-26b2a086-4f4b-4a7b-986d-0121854e992a.png)
+```
+
+We also note that the most represented racial category are: white (respectively 60.3% and 70.8%), black and african american (respectively 24.7% and 14%) and latino (respectively 12.1% and 12.2%). Here we see that the number of white foster families is proportionally larger than the proportion of white children (between 10 and 20 percentage points difference). This means that the proportion of racial minority families is lower than the proportion of racial minority children in foster care. Racial minority children are therefore more likely to have a foster family that is not from a racial minority.
 
 ### RQ2: Is AFCARS representative enough to be used as a training data set?
 
