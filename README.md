@@ -106,7 +106,7 @@ ax.bar(races,percentages)
 plt.show()
 ```
 
-![image]([C-IA.png](https://github.com/morgan-williams3/FosterCareProject/blob/5a3fe6665b0f40e0ea02d6216f96a1b26b76c509/P1%20IA.png))
+![image](C-IA.png)
 
 The most represented racial category among the children is white (51.7%), followed by black-African American (25.1%) and finally Latino (17.7%).  The other three racial categories are very little represented since they all represent less than 5% of the total population.
 
