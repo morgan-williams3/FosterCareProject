@@ -20,7 +20,7 @@ This analysis examines the inclusion of foster child and foster parent demograph
 ## Research questions
 The subsequent sections attempts to answer the following questions: 
 
-RQ1: Is there racial/socioeconomic overrepresentation among foster families? 
+RQ1: Is there racial overrepresentation among foster families? 
 
 RQ2: Is AFCARS representative enough to be used as a training data set?
 
