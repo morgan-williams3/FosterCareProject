@@ -76,7 +76,7 @@ For the last step in our analysis we compared the share of same-race households 
 ## Results
 
 
-### RQ1: Is there racial/socioeconomic overrepresentation among foster families? 
+### RQ1: Is there racial overrepresentation among foster families? 
 
 In order to determine whether there is an overrepresentation of a certain racial category on either the child or foster family side, we calculated the proportion of each racial category within the following populations: children, parent 1, and parent 2.
 
