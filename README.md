@@ -345,21 +345,21 @@ Senator Mike Lee, Republicans Joint Economic Committee, (2020) “A place to cal
 
 **Peer reviewed articles and academic articles**
 
-Leslie, L. K., J. N. Gordon, K. Lambros, K. Premji, J. Peoples, & Gist, K. (2005). Addressing the developmental and mental health needs of young children in foster care. J Dev Behav Pediatr, 26(2), 140–51. 10.1097/00004703-200504000-00011
+Leslie, L. K., J. N. Gordon, K. Lambros, K. Premji, J. Peoples, & Gist, K. (2005). Addressing the developmental and mental health needs of young children in foster care. _J Dev Behav Pediatr, 26_(2), 140–51. 10.1097/00004703-200504000-00011
 
-Moore, T. D., McDonald, T. P., & Cronbaugh-Auld, K. (2016). Assessing risk of placement instability to aid foster care placement decision making. Journal of Public Child Welfare, 10(2), 117–131. https://doi.org/10.1080/15548732.2016.1140697
+Moore, T. D., McDonald, T. P., & Cronbaugh-Auld, K. (2016). Assessing risk of placement instability to aid foster care placement decision making. _Journal of Public Child Welfare, 10_(2), 117–131. https://doi.org/10.1080/15548732.2016.1140697
 
-Saxena, D., Badillo-Urquiola, K., Wisniewski, P. J., & Guha, S. (2020, April). “A human-centered review of algorithms used within the US child welfare system”. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1–15).
+Saxena, D., Badillo-Urquiola, K., Wisniewski, P. J., & Guha, S. (2020). “A human-centered review of algorithms used within the US child welfare system”. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1–15).
 
-Church, C. E., & Fairchild, A. J. (2017). In search of a silver bullet: Child Welfare’s embrace of predictive analytics. Juvenile and Family Court Journal, 68(1), 67–81. https://doi.org/10.1111/jfcj.12086
+Church, C. E., & Fairchild, A. J. (2017). In search of a silver bullet: Child Welfare’s embrace of predictive analytics. _Juvenile and Family Court Journal, 68_(1), 67–81. https://doi.org/10.1111/jfcj.12086
 
-Rebecca Tushnet. (2018). The Difference Engine: Perpetuating Poverty through Algorithms. Jotwell: J. Things We Like (2018), 1.
+Tushnet, R. (2018). The difference engine: Perpetuating poverty through algorithms. _Jotwell_, (reviewing Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (2018)). https://cyber.jotwell.com/the-difference-engine-perpetuating-poverty-through-algorithms/
 
-Mezulis, A. H., Abramson, L. Y., Hyde, J. S., & Hankin, B. L. (2004). Is There a Universal Positivity Bias in Attributions? A Meta-Analytic Review of Individual, Developmental, and Cultural Differences in the Self-Serving Attributional Bias. Psychological Bulletin, 130(5), 711–747.
+Mezulis, A. H., Abramson, L. Y., Hyde, J. S., & Hankin, B. L. (2004). Is there a universal positivity bias in attributions? A meta-analytic review of individual, developmental, and cultural differences in the self-serving attributional bias. _Psychological Bulletin, 130_(5), 711–747.
 
 Diana E. MacDonald. (2019). “Foster Care: A Dynamic Matching Approach”, Job Market Paper
 
-Mariagiovanna Baccara, Allan Collard-Wexler, Leonardo Felli, and Lee at Yariv. (2014), “Child-Adoption Matching: Preferences for Gender and Race”, American Economic Journal: Applied Economics, Vol. 6, No. 3, pp. 133–158 
+Baccara, M., Collard-Wexler, A., Felli, L., & at Yariv, L. (2014). Child-adoption matching: Preferences for gender and race. _American Economic Journal: Applied Economics, 6(3), 133–158. https://www.jstor.org/stable/43189492
 
 **Press articles**
 
