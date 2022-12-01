@@ -266,7 +266,7 @@ fig.show()
 
 ![img1](Total-matching.png)
 
-60% of children placed in non-relative foster families in 2015 were placed in same-race households. However, White children were 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
+60% of children placed in non-relative foster families in 2015 were placed in same-race households. However, White children were 9 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
 
 ```python
 # Create figure
@@ -285,7 +285,7 @@ fig.show()
 
 ![img1](Kansas-compare.png)
 
-As outlined in the methodology section, we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, were 12 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding: minority foster children in Kansas are 8 percentage points significantly less likely to be placed in same-race household, while White foster children in Kansas are significantly more likely to be placed in same-race households. 
+As outlined in the methodology section, we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, were 11 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding: minority foster children in Kansas are 8 percentage points significantly less likely to be placed in same-race household, while White foster children in Kansas are significantly more likely to be placed in same-race households. 
 
 On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are a particularly vulnerable sub-population, the results suggest that algorithmic matching may disproportionately disadvantage a group that is already systematically disadvantaged. Therefore, the algorithm may appear to developers and social workers that it improves outcomes for foster children, but in reality, it improves outcomes for white children at the expense of minority children. 
 
