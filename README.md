@@ -5,8 +5,6 @@
 
 *Research and analysis by Stavroula Chousou, Yasmine El-Ghazi, Ludovica Pavoni, Lea Roubinet & Morgan Williams*
 
-*Decoding Biases in AI, SciencesPo, Fall 2022*
-
 ## Table of contents
 - [Introduction](#introduction)
 - [Research questions](#research-questions)
