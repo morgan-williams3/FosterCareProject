@@ -51,6 +51,10 @@ Those algorithms are trained either by inferential statistics methods or machine
 
 Research suggests that the variety of laws and policy drafts, as well as funding constraints, usually urge algorithms to be built as a useful tool for avoiding scandals, rather than actively contributing to placements with promising prospects for the childrens’ development. The following graph (Saxena et al., 2020) summarises and categorises a dataset of studies relating to the child placement system in the U.S. foster care system according to the major topics addressed by each study. Out of more than sixty studies analysed, only two studies examine the system of matching children with parents and their possible consequences, while the majority of studies focus on the notions of risk assessment. This underlines that the majority of the efforts in computational modelling of foster parent matching systems continues to be focused on risk assessment. According to Saxena et al (2020), the latest advances in algorithmic design and training could take into account the existing social sciences’ literature and strive for positive outcomes, but stagnant tradition, short-sightedness of the CWS regulators and lack of budget refrain those potentials from being explored.
 
+Graph 1 : Source : Mariagiovanna Baccara, Allan Collard-Wexler, Leonardo Felli, and Lee at Yariv (2014), “Child-Adoption Matching: Preferences for Gender and Race”, American Economic Journal: Applied Economics, Vol. 6, No. 3, pp. 133-158 
+
+![img1](Type_tech.png)
+
 
 ## Methodology 
 
@@ -325,9 +329,6 @@ Table 1 : Source : United States Department of Health and Human Services, Admini
 | Two or more races                      | 8%         | 31,669  |
 
 
-Graph 1 : Source : Mariagiovanna Baccara, Allan Collard-Wexler, Leonardo Felli, and Lee at Yariv (2014), “Child-Adoption Matching: Preferences for Gender and Race”, American Economic Journal: Applied Economics, Vol. 6, No. 3, pp. 133-158 
-
-![img1](Type_tech.png)
 
 ## Google notebooks
 - RQ1 & RQ2: https://colab.research.google.com/drive/1giwlLJAF9sC3hJM7hjSvUdG-VT7FyHIh?usp=sharing
