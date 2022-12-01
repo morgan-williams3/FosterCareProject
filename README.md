@@ -317,7 +317,7 @@ Table 1 : Source : United States Department of Health and Human Services, Admini
 
 Graph 1 : Source : Mariagiovanna Baccara, Allan Collard-Wexler, Leonardo Felli, and Lee at Yariv (2014), “Child-Adoption Matching: Preferences for Gender and Race”, American Economic Journal: Applied Economics, Vol. 6, No. 3, pp. 133-158 
 
-![img1](Type_tech)
+![img1](Type_tech.png)
 
 ## Google notebooks
 - RQ1 & RQ2: https://colab.research.google.com/drive/1giwlLJAF9sC3hJM7hjSvUdG-VT7FyHIh?usp=sharing
