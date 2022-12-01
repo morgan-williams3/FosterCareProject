@@ -338,9 +338,46 @@ Graph 1 : Source : Mariagiovanna Baccara, Allan Collard-Wexler, Leonardo Felli, 
 
 ## References
 
+**Institutional sources**
+
+AFCARS Report. (2021). Preliminary FY 2020 Estimates as of October 04, 2021 - No.28  U.S. Department of Health and Human Services, Administration for Children and Families, Administration on Children,Youth and Families, Children's Bureau
+
+Senator Mike Lee, Republicans Joint Economic Committee, (2020) “A place to call home improving foster care and adoption policy to give more children a stable family”, U.S Senate and Congress
+
+**Peer reviewed articles and academic articles**
+
+Leslie, L. K., J. N. Gordon, K. Lambros, K. Premji, J. Peoples, & Gist, K. (2005). Addressing the developmental and mental health needs of young children in foster care. J Dev Behav Pediatr, 26(2), 140–51. 10.1097/00004703-200504000-00011
+
+Moore, T. D., McDonald, T. P., & Cronbaugh-Auld, K. (2016). Assessing risk of placement instability to aid foster care placement decision making. Journal of Public Child Welfare, 10(2), 117–131. https://doi.org/10.1080/15548732.2016.1140697
+
+Saxena, D., Badillo-Urquiola, K., Wisniewski, P. J., & Guha, S. (2020, April). “A human-centered review of algorithms used within the US child welfare system”. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1–15).
+
+Church, C. E., & Fairchild, A. J. (2017). In search of a silver bullet: Child Welfare’s embrace of predictive analytics. Juvenile and Family Court Journal, 68(1), 67–81. https://doi.org/10.1111/jfcj.12086
+
+Rebecca Tushnet. (2018). The Difference Engine: Perpetuating Poverty through Algorithms. Jotwell: J. Things We Like (2018), 1.
+
+Mezulis, A. H., Abramson, L. Y., Hyde, J. S., & Hankin, B. L. (2004). Is There a Universal Positivity Bias in Attributions? A Meta-Analytic Review of Individual, Developmental, and Cultural Differences in the Self-Serving Attributional Bias. Psychological Bulletin, 130(5), 711–747.
+
+Diana E. MacDonald. (2019). “Foster Care: A Dynamic Matching Approach”, Job Market Paper
+
+Mariagiovanna Baccara, Allan Collard-Wexler, Leonardo Felli, and Lee at Yariv. (2014), “Child-Adoption Matching: Preferences for Gender and Race”, American Economic Journal: Applied Economics, Vol. 6, No. 3, pp. 133–158 
+
+**Press articles**
+
+Blaise Mesa, “Kansas wants more black foster parents to better match families with kids in crisis”, Kcur, March 15, 2022
+
+
+**Data**
+
+Adoption and Foster Care Analysis and Reporting System (AFCARS), Foster Care File 2015. National Data Archive on Child Abuse and Neglet. https://www.ndacan.acf.hhs.gov/datasets/dataset-details.cfm?ID=200
+
 Kids Count Data Center. (2021). _Child population by race and ethnicity in the United States_. https://datacenter.kidscount.org/data/tables/103-child-population-by-race-and-ethnicity#detailed/1/any/false/2048,574,1729,37,871,870,573,869,36,868/68,69,67,12,70,66,71,72/423,424
 
 _United States Census Bureau_. (2021). https://www.census.gov/quickfacts/fact/table/US/PST045221
+
+**General Information:**
+Human-Computer Interaction (HCI), Interaction Design Foundation: https://www.interaction-design.org/literature/topics/human-computer-interaction 
+
 
 
 
