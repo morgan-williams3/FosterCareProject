@@ -7,6 +7,21 @@
 
 *Decoding Biases in AI, SciencesPo, Fall 2022*
 
+## Table of contents
+- [Introduction](##Introduction)
+- [Research questions](##Research-questions)
+- [Literature review](##Literature-review)
+- [Methodology](##Methodology)
+- [Results](##Results)
+  * [RQ1](###RQ1)
+  * [RQ2](###RQ2)
+  * [RQ3](###RQ3)
+- [Limitations](##Limitations)
+- [Discussion](##Discussion)
+- [Annex](##Annex)
+- [Google Notebooks](##Google-Notebooks)
+- [References](##References)
+
 ## Introduction
 
 In the United States, there are over 400,000 children in foster care on any given day, with over 200,000 children entering and exiting each year (US ACF, 2021). While many children are placed in group homes, relatives’ homes and other institutions, the largest share (45%) of children are placed in non-relative foster family homes (US ACF, 2021). With the average age of children in foster care being 8.4 years old, placement in non-relative foster family homes is a delicate task. Children in this age group have high developmental needs, and misplacement may result in short and long-term implications on the child’s mental health, emotional wellbeing, academic success and more (Leslie et. al, 2005). 
