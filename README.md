@@ -11,7 +11,7 @@
 
 In the United States, there are over 400,000 children in foster care on any given day, with over 200,000 children entering and exiting each year (US ACF, 2021). While many children are placed in group homes, relatives’ homes and other institutions, the largest share (45%) of children are placed in non-relative foster family homes (US ACF, 2021). With the average age of children in foster care being 8.4 years old, placement in non-relative foster family homes is a delicate task. Children in this age group have high developmental needs, and misplacement may result in short and long-term implications on the child’s mental health, emotional wellbeing, academic success and more (Leslie et. al, 2005). 
 
-Despite the large number of cases and effort required to ensure that children are cared for and given the resources they need to succeed, the Child Welfare Departments across the country remain under-resourced and under-funded (Saxena et. al, 2020). In order to maximize their limited resources, some Child Welfare Departments have begun experimenting with algorithmic tools to assist social workers with decision-making, such as predicting risk of maltreatment, recommending placement settings and matching children with foster parents who are able to accommodate for their unique needs (Saxena et. al, 2020). While some tools have been commended by researchers for their improvements to child-outcomes and cost reductions, other analyses skepticize that the tools are biased, difficult to explain, or opaque (Saxena et. al, 2020; Church & Fairchild, 2019; Tushnet, 2018).
+Despite the large number of cases and effort required to ensure that children are cared for and given the resources they need to succeed, the Child Welfare Departments across the country remain under-resourced and under-funded (Saxena et. al, 2020). In order to maximize their limited resources, some Child Welfare Departments have begun experimenting with algorithmic tools to assist social workers with decision-making, such as predicting risk of maltreatment, recommending placement settings, and matching children with foster parents who are able to accommodate for their unique needs (Saxena et. al, 2020). While some tools have been commended by researchers for their improvements to child-outcomes and cost reductions, other analyses skepticize that the tools are biased, difficult to explain, or opaque (Saxena et. al, 2020; Church & Fairchild, 2019; Tushnet, 2018).
 
 A wide range of tools have been deployed to facilitate decision-making and each employs different indicators in their models. Saxena et. al’s (2020) systematic review of research papers regarding algorithms in Child Welfare Services, found that child demographics were discussed in 40% of papers and only 4% of papers discussed foster-parent demographics. According to Mesa (2022), placement in a same-race household can provide foster children with a more familiar environment that leaves them less vulnerable to social isolation and emotional health struggles. As a result, children in mixed-race foster family homes may struggle to form their racial identity and feel connected to family members and members of the community. 
 
@@ -49,7 +49,7 @@ foster_data_v2=foster_data_v1[['curplset','st',
 'rf2asian', 'rf2blkaa', 'rf2nhopi', 'rf2white', 'hofcctk2', 
 'rf2utod']]
 ```    
-The second step was limit our observations in the variable 'curplset', to only the children who are currently in the foster, non-relative, and pre-adoptive homes. Once the data was sufficiently cleaned we were able to proceed with the analysis.
+The second step was limiting our observations in the variable 'curplset', to only the children who are currently in the foster, non-relative, and pre-adoptive homes. Once the data was sufficiently cleaned we were able to proceed with the analysis.
 
 ```python
 # Limit observations to those who live in a foster home, non-relative or pre-adoptive home
@@ -58,19 +58,21 @@ foster_data_v2= foster_data_v2.loc
 | (foster_data_v2['curplset'] == 'Pre-adoptive home')]
      
 ```
-To answer the first two research questions related to the representativeness of the dataset with regard to the American population, we started from the data cleaning carried out previously by choosing to focus on the following racial categories: White, Black or African American, Latino, Asian, American Indian or Alaska native and Hawaiian or other Pacific Islander for children, parents 1 and parent 2. We decided not to consider individuals whose race is undetermined.
+To answer the first two research questions related to the representativeness of the dataset with regard to the American population, we started from the data cleaning carried out previously by choosing to focus on the following racial categories: White, Black or African American, Latino, Asian, American Indian or Alaska native and Hawaiian or other Pacific Islander for children, parent 1 and parent 2. We decided to not consider individuals whose race is undetermined.
 
 For question one, we calculated the distribution of the different racial categories for children and parents to see if significant differences could be observed.
 
 For question two, we selected two official data sources for the racial distribution of the entire U.S. population to assess the representativeness of our dataset. To do this we calculated fluctuation intervals based on the national distribution in order to compare it to the distribution of the AFCARS dataset.
 
-The details of all the calculations made for the analysis of this dataset can be found in the google notebook whose links are at the bottom of the page 
+The details of all the calculations for RQ1 and RQ2 can be found in the google notebook whose links are at the bottom of the page. 
 
-For question three, we started by coding our data. We created a new dummy variable to distinguish between the children who fall into minority groups from those who do not fall into minority groups. Minority children are Black-African Americans, Asians, Hawaiians and Pacific Islanders, Indian American, and children of Hispanic origins that are encoded as 1. In this phase we also dropped all those children whose race was undetermined. Non-minority children, the remaining White children therefore, are encoded as 0. We repeated the same procedure for 1st and 2nd foster parent, so we created a dummy variable that took value 1 if 1st parent was a minority and took value 0 if 1st parent was non-minority. We created a second variable that also took value 1 if 2nd parent was a minority and value 0 if 2nd parent was non-minority. These two variables were created in order to encode a third dummy variable that took value 1 if at least one parent is a minority and that took value 0 if 1st and 2nd parent are non-minority.
+For question three, we started by encoding our data. We created a new dummy variable to distinguish between the children who fall into minority groups from those who do not fall into minority groups. Minority children are Black or African American, Asian, Hawaiian or Pacific Islanders, Indian or Alaska Native American, and children of Hispanic origin that are encoded as 1. In this phase we also dropped all those children whose race was undetermined. Non-minority children, the remaining White children therefore, are encoded as 0. We repeated the same procedure for 1st and 2nd foster parent, so we created a dummy variable that took value 1 if 1st parent was a minority and took value 0 if 1st parent was non-minority. We created a second variable that also took value 1 if 2nd parent was a minority and value 0 if 2nd parent was non-minority. These two variables were created in order to encode a third dummy variable that took value 1 if at least one parent is a minority and that took value 0 if 1st and 2nd parent are non-minority.
 
 To understand the share of same-race households by race, we combined the variables resulting in a variable that took value 0 when children and parents’ races matched (so when a minority child was placed with minority parents and when a non-minority child was placed with non-minority parents). It took value 1 when such matching did not occur.
 
 For the last step in our analysis we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. We chose Kansas as our benchmark state because Kansas was one of the first states to adopt a matching algorithm, implemented by the US Child Welfare System, and it was one of the first and only states to use a child assessment tool to determine the appropriate level of care each child requires. As early as 2010, two sub-state regions under contract with Kansas, began using a web-based decision support tool called "Every Child a Priority" (ECAP) developed by TFI Family Sercices to provide placement match options based on an algorithm that used information froma child assessment and information on available placement resources (Moore, Thomas & Cronbaugh-Auld, 2016).
+
+The details of all the calculations for RQ3 can be found in the google notebook whose links are at the bottom of the page. 
 
 
 ## Results
@@ -108,7 +110,7 @@ plt.show()
 
 ![image](C-IA.png)
 
-The most represented racial category among the children is white (51.7%), followed by black-African American (25.1%) and finally Latino (17.7%).  The other three racial categories are very little represented since they all represent less than 5% of the total population.
+The most represented racial category among the children is White (51.7%), followed by Black-African American (25.1%) and finally Latino (17.7%). The other three racial categories are very little represented since they all represent less than 5% of the total population.
 
 Regarding parents, it should be noted that the population of parent 1 is higher than that of parent 2. This significant difference is not explained. We assume that this is the result of either a lack of data or a large number of single-parent foster families. This would be the case for 104,643 families out of 295,348 (or 35.4%).
 
@@ -154,13 +156,13 @@ Percentage of Latino parent 2: 0.12287040192968197
 
 ![image3](P2-IA.png)
 
-We also note that the most represented racial category are: white (respectively 60.3% and 70.8%), black and african american (respectively 24.7% and 14%) and latino (respectively 12.1% and 12.2%). Here we see that the number of white foster families is proportionally larger than the proportion of white children (between 10 and 20 percentage points difference). This means that the proportion of racial minority families is lower than the proportion of racial minority children in foster care. Racial minority children are therefore more likely to have a foster family that is not from a racial minority.
+We also note that the most represented racial categories are: White (respectively 60.3% and 70.8%), Black and African American (respectively 24.7% and 14%) and Latino (respectively 12.1% and 12.2%). Here we see that the number of White foster families is proportionally larger than the proportion of White children (between 10 and 20 percentage points difference). This means that the proportion of racial minority families is lower than the proportion of racial minority children in foster care. Racial minority children are therefore more likely to have a foster family that is not from a racial minority.
 
 ### RQ2: Is AFCARS representative enough to be used as a training data set?
 
 With the results obtained previously, we wanted to know if the dataset was representative of the racial distribution of the American population. This representativeness is important in the case where this dataset would be used by algorithms and decision-making tools. If the dataset is not representative, these tools could be biased, which in the case of such sensitive subjects as placement, adoption and ultimately, the well-being of children, could have serious consequences. 
 
-The data on the racial distribution of children in the United States comes from the Kids Count Data Center. Data on the racial distribution of adults in the United States are from the United States Census Bureau (links are in the reference section). In both cases we used data for the year 2021.
+The data on the racial distribution of children in the U.S. comes from the Kids Count Data Center. Data on the racial distribution of adults in the U.S. are from the United States Census Bureau (links are in the reference section). In both cases we used data for the year 2021.
 
 Using the calculation of fluctuation intervals we found the following results:
 
@@ -168,9 +170,9 @@ We find that in general, the racial distribution within the AFCARS dataset for b
 
 ![image3](IA-tableau.png)
 
-The proportion of white adults is representative of the U.S. population for parent 1 but the proportion for parent 2 is much higher than the proportion of white adults in the U.S. population. We can conclude that the dataset is partially representative in this regard and that limiting the study to the parent 1 population may be considered in the case of use for an algorithmic tool.
+The proportion of White adults is representative of the U.S. population for parent 1 but the proportion for parent 2 is much higher than the proportion of White adults in the U.S. population. We can conclude that the dataset is partially representative in this regard and that limiting the study to the parent 1 population may be considered in the case of use for an algorithmic tool.
 
-The proportion of black or african american adults is higher than that observed in the general population for parent 1 but is representative for parent 2. We can make the same remark as in the previous point.
+The proportion of Black or African American adults is higher than that observed in the general population for parent 1 but is representative for parent 2. We can make the same remark as in the previous point.
 
 Black or African American children are significantly overrepresented compared to the distribution within the American child population (10 percentage points above the upper limit of the fluctuation interval). This finding may be explained by race-related socioeconomic conditions that impact the child's living conditions.
 
