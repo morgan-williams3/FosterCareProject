@@ -290,13 +290,13 @@ As far as data limitation goes, the present dataset does not have any informatio
 ## Discussion
 Taking into account our literature review and our research results, we conclude that the endemic deficiencies in the foster care system raise considerable limits to the efficiency and effectiveness of successful placement algorithms. The need for an unbiased decision-making counselling tool has not been achieved, as training models and designing obsession with risk aversion slightly favour Caucasian children, at the significant  expense of the already disadvantaged minority children. Keeping in mind that the CWS and the placement algorithms are influencing each other increasingly, we identified areas of improvement and suggest the following based on a human-centred, HIC approach:
 
-- Include cultural, social, racial and ethnic characteristics as independent variables in the automatized matching system, so as to better incorporate the values and needs of the stakeholders according to the child welfare literature of the past two decades ; 
+- Include cultural, social, racial and ethnic characteristics as independent variables in the automatized matching system, so as to better incorporate the values and needs of the stakeholders according to the child welfare literature of the past two decades; 
 
-- Invest in ways to incorporate contextual-awareness into algorithms so that they can be counseling tools for social workers and designated professionals, rather than last resort decision making protocols ;
+- Invest in ways to incorporate contextual-awareness into algorithms so that they can be counseling tools for social workers and designated professionals, rather than last resort decision making protocols;
 
-- Political actors, CWS professionals and researchers to focus on building placement prediction algorithms having in mind trade-off between risk-assessment and matching characteristics for positive outcomes in the future of the foster children ;
+- Political actors, CWS professionals and researchers to focus on building placement prediction algorithms having in mind trade-off between risk-assessment and matching characteristics for positive outcomes in the future of the foster children;
 
-- Move further than easily accessible and quantifiable features; invest in predicting and/or configuring more abstract decisive predictors associated with positive outcomes, such as parenting skills, conflict resolution skills etc. ;
+- Move further than easily accessible and quantifiable features; invest in predicting and/or configuring more abstract decisive predictors associated with positive outcomes, such as parenting skills, conflict resolution skills etc.;
 
 - Reform foster care system : target recruitment strategies, improve service and treat parents as partners,  foster parent training process to support them, remove unnecessary education and home requirements, f.i. by creating a federal list of requirements and bigger sanctions for non-compliance  with the Multiethnic Placement Act.
 
