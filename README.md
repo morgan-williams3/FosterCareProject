@@ -8,19 +8,19 @@
 *Decoding Biases in AI, SciencesPo, Fall 2022*
 
 ## Table of contents
-- [Introduction](##Introduction)
-- [Research questions](##Research-questions)
-- [Literature review](##Literature-review)
-- [Methodology](##Methodology)
-- [Results](##Results)
-  * [RQ1](###RQ1)
-  * [RQ2](###RQ2)
-  * [RQ3](###RQ3)
-- [Limitations](##Limitations)
-- [Discussion](##Discussion)
-- [Annex](##Annex)
-- [Google Notebooks](##Google-Notebooks)
-- [References](##References)
+- [Introduction](#Introduction)
+- [Research questions](#Research-questions)
+- [Literature review](#Literature-review)
+- [Methodology](#Methodology)
+- [Results](#Results)
+  * [RQ1](#RQ1)
+  * [RQ2](#RQ2)
+  * [RQ3](#RQ3)
+- [Limitations](#Limitations)
+- [Discussion](#Discussion)
+- [Annex](#Annex)
+- [Google Notebooks](#Google-Notebooks)
+- [References](#References)
 
 ## Introduction
 
