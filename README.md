@@ -359,7 +359,7 @@ Mezulis, A. H., Abramson, L. Y., Hyde, J. S., & Hankin, B. L. (2004). Is there a
 
 Diana E. MacDonald. (2019). “Foster Care: A Dynamic Matching Approach”, Job Market Paper
 
-Baccara, M., Collard-Wexler, A., Felli, L., & at Yariv, L. (2014). Child-adoption matching: Preferences for gender and race. _American Economic Journal: Applied Economics, 6(3), 133–158. https://www.jstor.org/stable/43189492
+Baccara, M., Collard-Wexler, A., Felli, L., & at Yariv, L. (2014). Child-adoption matching: Preferences for gender and race. _American Economic Journal: Applied Economics, 6_(3), 133–158. https://www.jstor.org/stable/43189492
 
 **Press articles**
 
