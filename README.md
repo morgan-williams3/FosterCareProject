@@ -25,7 +25,7 @@ Despite the large number of cases and effort required to ensure that children ar
 
 A wide range of tools have been deployed to facilitate decision-making and each employs different indicators in their models. Saxena et. al’s (2020) systematic review of research papers regarding algorithms in Child Welfare Services, found that child demographics were discussed in 40% of papers and only 4% of papers discussed foster-parent demographics. According to Mesa (2022), placement in a same-race household can provide foster children with a more familiar environment that leaves them less vulnerable to social isolation and emotional health struggles. As a result, children in mixed-race foster family homes may struggle to form their racial identity and feel connected to family members and members of the community. 
 
-This analysis examines the inclusion of foster child and foster parent demographics into parent-child matching algorithms. In the first analysis, researchers will assess whether demographic variables in the Adoption and Foster Care Analysis and Reporting System 2015 (AFCARS) dataset are representative enough to undermine potential biases in parent-child matching tools if it were used as training data. In the second section, researchers examine whether the use of parent-child matching tools in Kansas resulted in a higher share of same-race placements compared to neighboring states.  
+This analysis examines the inclusion of foster child and foster parent demographics into parent-child matching algorithms. In the first analysis, researchers assessed whether demographic variables in the Adoption and Foster Care Analysis and Reporting System 2015 (AFCARS) dataset are representative enough to undermine potential biases in parent-child matching tools if it were used as training data. In the second analysis, researchers examined whether the use of parent-child matching tools in Kansas resulted in a higher share of same-race placements compared to neighboring states.  
 
 ## Research questions
 The subsequent sections attempts to answer the following questions: 
@@ -37,11 +37,11 @@ RQ2: Is AFCARS representative enough to be used as a training data set?
 RQ3: Are states that use placement recommendation models or child-foster parent matching models more likely to take into account children’s wellbeing by placing them in same-race households?
 
 ## Literature review
-There is a gap in the existing literature on the American foster care system and the decision-making processes involved when it comes to children’s or parents’ demographic characteristics, including racial and ethnic disparities. Research suggests that the matching of these features is a strong indicator for the child’s successful integration in the foster home, for their psychological development, but also for their positive performance later in life. Kids’ of a certain racial profile can thrive in different- race homes, however foster parents attest that a child’s trauma of leaving their families to live with strangers may result in further unsettlement when factoring the racial divide (KCUR, 2022) (U.S. Department of Health and Human Services, 2002) (Saxena et al,, 2020).
+There is a gap in the existing literature on the American foster care system and the decision-making processes involved when it comes to children’s or parents’ demographic characteristics, including racial and ethnic disparities. Research suggests that the matching of these features is a strong indicator for the child’s successful integration in the foster home, for their psychological development, but also for their positive performance later in life. Kids’ of a certain racial profile can thrive in different- race homes, however foster parents attest that a child’s trauma of leaving their families to live with strangers may result in further unsettlement when factoring the racial divide (KCUR, 2022) (U.S. Department of Health and Human Services, 2002) (Saxena et al., 2020).
 
-In the US, data indicate the existing discrimination against African American children as opposed to Caucasian children in both the foster-care and adoption system (Baccara et al., 2014). Indeed there seems to be a mismatch between the preferences of PAPs (the demand side) and the characteristics of children relinquished for adoption by BMOs (the supply side), especially when it comes to adoption (Baccara et al., 2014). This could potentially be explained by the mere fact that Caucasian people apply for adoption much more than their African-American counterparts, and would likely look for children that look like them (Baccara et al., 2014). This results in a problematic situation where the remaining unmatched children are placed in the foster care system - 23% of which are African American children in 2021 (Table 1). While discrimination against African American children in the foster care system is evident, existing analyses do not identify significant disparities for children of Hispanic or Asian descent to define potential discrimination.
+In the US, data indicate the existing discrimination against Black children as opposed to White children in both the foster-care and adoption system (Baccara et al., 2014). Indeed there seems to be a mismatch between the preferences of PAPs (the demand side) and the characteristics of children relinquished for adoption by BMOs (the supply side), especially when it comes to adoption (Baccara et al., 2014). This could potentially be explained by the mere fact that White people apply for adoption much more than their Black counterparts, and would likely look for children that look like them (Baccara et al., 2014). This results in a problematic situation where the remaining unmatched children are placed in the foster care system - 23% of which are Black children in 2021 (Table 1). While discrimination against Black children in the foster care system is evident, existing analyses do not identify significant disparities for children of Hispanic or Asian descent to define potential discrimination.
 
-This overrepresentation in the foster care system creates the need for more African American parents. Yet again, there is a strong disparity, as most foster parents are Caucasian (f.i. 80% in Kansas). Existing research shows that this exclusion derives from a variety of factors, such as extremely specific and elitist educational and home requirements. (U.S Senate, 2020). For example, in the state of Virginia there is a requirement of having a special college degree in order to be enrolled in the foster care system. Although those requirements are detrimental for the chances of the majority of potential foster parents, they are especially detrimental for the minority populations wishing to be enrolled.
+This overrepresentation in the foster care system creates the need for more Black foster parents. Yet again, there is a strong disparity, as most foster parents are White (f.i. 80% in Kansas). Existing research shows that this exclusion derives from a variety of factors, such as extremely specific and elitist educational and home requirements. (U.S Senate, 2020). For example, in the state of Virginia there is a requirement of having a special college degree in order to be enrolled in the foster care system. Although those requirements are detrimental for the chances of the majority of potential foster parents, they are especially detrimental for the minority populations wishing to be enrolled.
 
 Other institutional factors further complicate the scenery. According to the US Senate (2020), only 8% of people who inquire about becoming foster parents eventually become licensed. This is the outcome of a chronic lack of a designated support agency to help candidates become foster parents creates a general lack of foster parents. The same systemic inadequacy is observed with the intertemporal lack of federal or state foster care funding for recruiting foster parents. Moreover, most states’ foster care systems and partner organisations do not comply with the Multiethnic Placement Act, requiring further assessment for placement of children in a different race-foster-family (U.S Senate, 2020). Indeed, the Multiethnic Placement Act, passed in 1994, prohibits the delay or denial of placement of a child on the basis of race, colour or national origin. However, many states have already violated this law. In the early 2000s, the U.S. Department of Health and Human Services’ Office of Civil Rights found that Ohio or South Carolina were violating the Multiethnic Placement Act. For example, they subjected parents to a higher level of scrutiny if the parent was a different race than the child, or assessed the racial composition of the neighborhood of prospective foster families in order to match children with parents based on skin tone (U.S Senate, 2020).
 
@@ -55,7 +55,7 @@ Research suggests that the variety of laws and policy drafts, as well as funding
 ## Methodology 
 
 
-In order to understand whether there is racial/socioeconomic overrepresentation among foster families and to examine the reality of foster care matching, the analysis employs the Adoption and Foster Care Analysis and Reporting System 2015 (AFCARS) dataset. Such data is compiled by the Department of Health and Human Services (HHS), the Administration for Children and Families (ACF), and Children’s Bureau (CB).
+In order to understand whether there is racial/socioeconomic overrepresentation among foster families and to examine the reality of foster care matching, the analysis employs the Adoption and Foster Care Analysis and Reporting System 2015 (AFCARS) dataset. Such data is compiled by the Children’s Bureau (CB) within the Administration for Children and Families (ACF).
 
 The dataset is exhaustive as it provides data on children who enter foster care, their entries and exits, placement details, and foster/adoptive parent information, which helped us identify adoption trends. The dataset of course also provides data on the social and racial background of the children in the foster care system, as well as racial information of caretakers, both 1st and 2nd foster caretakers.
 
@@ -71,7 +71,7 @@ foster_data_v2=foster_data_v1[['curplset','st',
 'rf2asian', 'rf2blkaa', 'rf2nhopi', 'rf2white', 'hofcctk2', 
 'rf2utod']]
 ```    
-The second step was limiting our observations in the variable 'curplset', to only the children who are currently in the foster, non-relative, and pre-adoptive homes. Once the data was sufficiently cleaned we were able to proceed with the analysis.
+The second step was limiting our observations in the variable 'curplset', to only the children who are currently in the foster, non-relative, and pre-adoptive homes. This decision was made because these are the children that would be affected by algorithmic matching. Once the data was sufficiently cleaned we were able to proceed with the analysis.
 
 ```python
 # Limit observations to those who live in a foster home, non-relative or pre-adoptive home
@@ -132,9 +132,9 @@ plt.show()
 
 ![image](C-IA.png)
 
-The most represented racial category among the children is White (51.7%), followed by Black-African American (25.1%) and finally Latino (17.7%). The other three racial categories are very little represented since they all represent less than 5% of the total population.
+The most represented racial category among the children is White (51.7%), followed by Black or African-American (25.1%) and finally Latino (17.7%). The other three racial categories are very little represented since they all represent less than 5% of the total population.
 
-Regarding parents, it should be noted that the population of parent 1 is higher than that of parent 2. This significant difference is not explained. We assume that this is the result of either a lack of data or a large number of single-parent foster families. This would be the case for 104,643 families out of 295,348 (or 35.4%).
+Regarding parents, it should be noted that the population of parent 1 is higher than that of parent 2. This significant difference is not explained. We assume that this can be explained by a large number of single-parent foster families or a lack of data. This would be the case for 104,643 families out of 295,348 (or 35.4%).
 
 We obtained the following results:
 
@@ -178,7 +178,7 @@ Percentage of Latino parent 2: 0.12287040192968197
 
 ![image3](P2-IA.png)
 
-We also note that the most represented racial categories are: White (respectively 60.3% and 70.8%), Black and African American (respectively 24.7% and 14%) and Latino (respectively 12.1% and 12.2%). Here we see that the number of White foster families is proportionally larger than the proportion of White children (between 10 and 20 percentage points difference). This means that the proportion of racial minority families is lower than the proportion of racial minority children in foster care. Racial minority children are therefore more likely to have a foster family that is not from a racial minority.
+We also note that the most represented racial categories are: White (respectively 60.3% and 70.8%), Black or African American (respectively 24.7% and 14%) and Latino (respectively 12.1% and 12.2%). Here we see that the number of White foster families is proportionally larger than the proportion of White children (between 10 and 20 percentage points difference). This means that the proportion of racial minority families is lower than the proportion of racial minority children in foster care. Racial minority children are therefore more likely to have a foster family that is not from a racial minority.
 
 ### RQ2: Is AFCARS representative enough to be used as a training data set?
 
@@ -220,7 +220,7 @@ fig = px.pie(foster_data_v3, names='child_race_plot', title="Foster Child Race",
 
 ![img1](Child-race.png)
 
-First, we will examine the demographic composition of minority vs. White non-relative foster families. In the dataset, around half of foster children placed in non-relative foster care are White, and the rest are minorities, indicating a relatively even demographic dispersion.
+First, we examined the demographic composition of minority vs. White non-relative foster families. In the dataset, around half of foster children placed in non-relative foster care were White, and the rest were minorities, indicating a relatively even demographic dispersion.
 
 ```python
 # Create dictionary for figure
@@ -238,7 +238,7 @@ fig.show()
 ```
 ![img1](minority_parent.png)
 
-With that said, there are more White non-relative foster families than homes with at least one minority parent. Since the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there are more minority foster families on waiting lists and have not yet been matched with a foster child.
+With that said, there were more White non-relative foster families than homes with at least one minority parent. Since the dataset only includes matched families and does not have access to all foster parent applications, it is conceivable that there were minority foster families on waiting lists and have not yet been matched with a foster child. However, this hypothesis is not supported by the literature.
 
 ```python
 # Create dataframe for bar graph
@@ -266,7 +266,7 @@ fig.show()
 
 ![img1](Total-matching.png)
 
-Using the American population of children placed in non-relative foster families in 2015, 60% are placed in same-race households. However, White children are 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
+60% of children placed in non-relative foster families in 2015 were placed in same-race households. However, White children were 10 percentage points statistically significantly more likely to be placed in these households as compared to their minority peers.  
 
 ```python
 # Create figure
@@ -285,7 +285,7 @@ fig.show()
 
 ![img1](Kansas-compare.png)
 
-As outlined in the methodology section, we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, are 12 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding, that minority foster children in Kansas are 8 percentage points significantly less likely to be placed in same-race household, while White foster children in Kansas are significantly more likely to be placed in same-race households. 
+As outlined in the methodology section, we compared the share of same-race households in Kansas, a state that used algorithmic matching in 2015, with two surrounding states with similar demographic compositions, Colorado and Nebraska. When examining the results in aggregate, it appears that foster children in Kansas, were 12 percentage points more likely than in surrounding states to be placed in same-race households. However, sub-group analysis uncovers a more confounding finding: minority foster children in Kansas are 8 percentage points significantly less likely to be placed in same-race household, while White foster children in Kansas are significantly more likely to be placed in same-race households. 
 
 On one hand, it is reassuring that a system using algorithmic matching is significantly more likely to place children in same-race households in aggregate. On the other hand, a system using algorithmic matching significantly diminishes the likelihood of a minority foster child being placed in a home that generates long-term positive outcomes. As minority foster children are a particularly vulnerable sub-population, the results suggest that algorithmic matching may disproportionately disadvantage a group that is already systematically disadvantaged. Therefore, the algorithm may appear to developers and social workers that it improves outcomes for foster children, but in reality, it improves outcomes for white children at the expense of minority children. 
 
