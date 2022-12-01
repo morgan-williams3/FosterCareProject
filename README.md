@@ -300,6 +300,24 @@ Taking into account our literature review and our research results, we conclude 
 
 - Reform foster care system : target recruitment strategies, improve service and treat parents as partners,  foster parent training process to support them, remove unnecessary education and home requirements, f.i. by creating a federal list of requirements and bigger sanctions for non-compliance  with the Multiethnic Placement Act.
 
+## Annex
+Table 1 : Source : United States Department of Health and Human Services, Administration for Children and Families (2021)
+
+| Race/Ethnicity                         | Percentage | Number  |
+|----------------------------------------|------------|---------|
+| American Indian/Alaska native          | 2%         | 9,851   |
+| Asian                                  | 1%         | 2,061   |
+| Black or African American              | 23%        | 92,237  |
+| Native Hawaiian/Other Pacific Islander | 0%         | 1,070   |
+| Hispanic (of any race)                 | 22%        | 88,111  |
+| White                                  | 43%        | 175,870 |
+| Unknown/Unable to determine            | 1%         | 5,597   |
+| Two or more races                      | 8%         | 31,669  |
+
+
+Graph 1 : Source : Mariagiovanna Baccara, Allan Collard-Wexler, Leonardo Felli, and Lee at Yariv (2014), “Child-Adoption Matching: Preferences for Gender and Race”, American Economic Journal: Applied Economics, Vol. 6, No. 3, pp. 133-158 
+
+![img1](Type_tech)
 
 ## Google notebooks
 - RQ1 & RQ2: https://colab.research.google.com/drive/1giwlLJAF9sC3hJM7hjSvUdG-VT7FyHIh?usp=sharing
